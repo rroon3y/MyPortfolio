@@ -1,10 +1,9 @@
 import { Navbar } from "@/app/components/navbar";
 import { Hero } from "@/app/components/hero";
 import { About } from "@/app/components/about";
-import { Projects } from "@/app/components/projects";
+import { Projects } from "@/app/components/project";
 import { TechStack } from "@/app/components/tech-stack";
 import { Contact } from "@/app/components/contact";
-import { Footer } from "@/app/components/footer";
 
 export default function App() {
   return (
@@ -17,7 +16,6 @@ export default function App() {
         <TechStack />
         <Contact />
       </main>
-      <Footer />
     </div>
   );
 }
