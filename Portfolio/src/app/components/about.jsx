@@ -67,10 +67,9 @@ export function About() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            I'm a passionate full-stack developer with years of experience building
-            scalable web applications. I love turning complex problems into simple,
-            beautiful, and intuitive interfaces. When I'm not coding, you'll find me
-            exploring new technologies, contributing to open source, or mentoring aspiring developers.
+           Hi, I’m Rooney a developer who cares about how things work and how they feel. I build full-stack web apps from the ground up, paying attention to both the logic behind the scenes and the experience on the screen.
+          I’m big on growth. If there’s a gap in my skills, I close it. If something breaks, I figure it out. I rebuild, refine, and improve until it feels right because “good enough” has never really been my style.
+          Right now, I’m focused on creating clean, responsive, and purposeful projects that solve real problems and look sharp doing it. For me, this isn’t just code it’s craft.
           </motion.p>
         </motion.div>
 

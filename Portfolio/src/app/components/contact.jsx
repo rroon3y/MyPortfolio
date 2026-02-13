@@ -2,12 +2,13 @@ import { motion } from "motion/react";
 import { useForm } from "react-hook-form";
 import { Github, Linkedin, Mail, Twitter, Send } from "lucide-react";
 import { useInView } from "@/app/hooks/use-in-view";
+import { Instagram, WhatsApp } from "@mui/icons-material";
 
 const socialLinks = [
-  { icon: Github, label: "GitHub", href: "#" },
-  { icon: Linkedin, label: "LinkedIn", href: "#" },
-  { icon: Twitter, label: "Twitter", href: "#" },
-  { icon: Mail, label: "Email", href: "mailto:hello@example.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com/rroon3y" },
+  { icon: WhatsApp, label: "WhatsApp", href: "https://wa.me/0731434141" },
+  { icon: Instagram, label: "Instagram", href: "https://instagram.com/_roo.n3yy" },
+  { icon: Mail, label: "Email", href: "mailto:rooneyalex2016@gmail.com" },
 ];
 
 export function Contact() {
@@ -270,7 +271,11 @@ export function Contact() {
                   <div className="relative">
                     <p className="font-semibold text-foreground">{social.label}</p>
                     <p className="text-sm text-muted-foreground">
-                      {social.label === "Email" ? "hello@example.com" : `@yourusername`}
+                      {social.label === "Email" ? "rooneyalex2016@gmail.com" :
+                        social.label === "GitHub" ? "rroon3y" :
+                        social.label === "WhatsApp" ? "0731434141" :
+                        social.label === "Instagram" ? "_roo.n3yy" :
+                        `@yourusername`}
                     </p>
                   </div>
 
