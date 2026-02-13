@@ -6,22 +6,22 @@ const skills = [
   {
     icon: Code2,
     title: "Frontend Development",
-    description: "React, TypeScript, Next.js, Tailwind CSS",
+    description: "React, TypeScript, Tailwind CSS",
   },
   {
     icon: Zap,
     title: "Backend Development",
-    description: "Node.js, Express, PostgreSQL, MongoDB",
+    description: "Node.js, PostgreSQL, MongoDB",
   },
   {
     icon: Palette,
     title: "UI/UX Design",
-    description: "Figma, Adobe XD, Responsive Design",
+    description: "Figma, Responsive Design",
   },
   {
     icon: Rocket,
     title: "DevOps & Tools",
-    description: "Git, Docker, CI/CD, AWS",
+    description: "Git, Github",
   },
 ];
 
@@ -67,7 +67,7 @@ export function About() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            I'm a passionate full-stack developer with 5+ years of experience building
+            I'm a passionate full-stack developer with years of experience building
             scalable web applications. I love turning complex problems into simple,
             beautiful, and intuitive interfaces. When I'm not coding, you'll find me
             exploring new technologies, contributing to open source, or mentoring aspiring developers.
