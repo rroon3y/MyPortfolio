@@ -5,13 +5,13 @@ import { useInView } from "@/app/hooks/use-in-view";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with real-time inventory management, payment processing, and analytics dashboard.",
-    tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
+    title: "CampusConnect",
+    description: "CampusConnect is a web application that bridges students and campus service providers by enabling students to discover, book, and review services while offering vendors tools to manage their offerings and administrators oversight capabilities.",
+    tags: ["React", "Node.js", "Day.js", "Tailwind CSS"],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
   },
   {
-    title: "Task Management App",
+    title: "",
     description: "Collaborative task management tool with real-time updates, kanban boards, and team analytics.",
     tags: ["Next.js", "TypeScript", "Prisma", "tRPC"],
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
