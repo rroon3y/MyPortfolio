@@ -11,35 +11,18 @@ const projects = [
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
   },
   {
-    title: "",
-    description: "Collaborative task management tool with real-time updates, kanban boards, and team analytics.",
-    tags: ["Next.js", "TypeScript", "Prisma", "tRPC"],
+    title: "Class-pal-assignment-tracker",
+    description: "ClassPal is a student assignment tracking application that helps users manage assignments, stay organized, and never miss deadlines through a user-friendly interface featuring submission forms, an assignment list, and information/contact pages.",
+    tags: ["CSS", "HTML", "Index.js"],
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
   },
   {
-    title: "Social Media Dashboard",
-    description: "Analytics dashboard for tracking social media metrics across multiple platforms with beautiful visualizations.",
-    tags: ["React", "D3.js", "Express", "MongoDB"],
+    title: "Eventora",
+    description: "Eventora is a modern event discovery and management web app built to simplify how people find and host events. It combines clean UI design with dynamic JavaScript functionality for a seamless user experience.",
+    tags: ["React", "JavaScript", "DOM Manipulation", "CSS"],
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
   },
-  {
-    title: "AI Content Generator",
-    description: "AI-powered content generation tool with GPT integration, custom prompts, and content management system.",
-    tags: ["Next.js", "OpenAI API", "Tailwind", "Supabase"],
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
-  },
-  {
-    title: "Video Streaming Platform",
-    description: "Netflix-style streaming platform with video encoding, adaptive streaming, and recommendation engine.",
-    tags: ["React", "AWS", "FFmpeg", "Redis"],
-    image: "https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=800&h=600&fit=crop",
-  },
-  {
-    title: "Fitness Tracking App",
-    description: "Mobile-first fitness app with workout tracking, progress charts, and personalized workout plans.",
-    tags: ["React Native", "Firebase", "Chart.js"],
-    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop",
-  },
+
 ];
 
 export function Projects() {
