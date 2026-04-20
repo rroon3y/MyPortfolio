@@ -3,7 +3,7 @@ import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pt-14 md:pt-16">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden px-6 pt-14 md:pt-16 pb-20 md:pb-24">
       {/* Enhanced animated background gradients */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -110,7 +110,7 @@ export function Hero() {
             transition={{ delay: 0.9, duration: 0.8 }}
           >
             <motion.button
-className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-violet-600 text-white rounded-lg overflow-hidden"
+              className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-violet-600 text-white rounded-lg overflow-hidden"
               onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -142,7 +142,7 @@ className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-violet-6
             </motion.button>
 
             <motion.button
-className="group relative px-8 py-4 border-2 border-primary/50 text-foreground rounded-lg overflow-hidden backdrop-blur-sm"
+              className="group relative px-8 py-4 border-2 border-primary/50 text-foreground rounded-lg overflow-hidden backdrop-blur-sm"
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -198,7 +198,7 @@ className="group relative px-8 py-4 border-2 border-primary/50 text-foreground r
 
       {/* Enhanced scroll indicator */}
       <motion.div
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
+        className="absolute bottom-12 md:bottom-16 left-1/2 -translate-x-1/2"
         animate={{ y: [0, 10, 0] }}
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
