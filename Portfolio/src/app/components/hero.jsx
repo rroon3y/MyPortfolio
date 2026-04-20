@@ -142,7 +142,8 @@ className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-violet-6
             </motion.button>
 
             <motion.button
-              className="group relative px-8 py-4 border-2 border-primary/50 text-foreground rounded-lg overflow-hidden backdrop-blur-sm"
+className="group relative px-8 py-4 border-2 border-primary/50 text-foreground rounded-lg overflow-hidden backdrop-blur-sm"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
