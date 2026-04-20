@@ -110,7 +110,8 @@ export function Hero() {
             transition={{ delay: 0.9, duration: 0.8 }}
           >
             <motion.button
-              className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-violet-600 text-white rounded-lg overflow-hidden"
+className="group relative px-8 py-4 bg-gradient-to-r from-purple-600 to-violet-600 text-white rounded-lg overflow-hidden"
+              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               style={{
