@@ -171,9 +171,9 @@ className="group relative px-8 py-4 border-2 border-primary/50 text-foreground r
             transition={{ delay: 1.1, duration: 0.8 }}
           >
             {[
-              { Icon: Github, href: "#" },
-              { Icon: Linkedin, href: "#" },
-              { Icon: Mail, href: "#" },
+              { Icon: Github, href: "https://github.com/rroon3y" },
+              { Icon: Linkedin, href: "https://www.linkedin.com/in/rooney-alex-6235a0398" },
+              { Icon: Mail, href: "mailto:rooneyalex2016@gmail.com" },
             ].map(({ Icon, href }, index) => (
               <motion.a
                 key={index}
