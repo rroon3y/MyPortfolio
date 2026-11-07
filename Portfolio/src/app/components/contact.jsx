@@ -273,7 +273,7 @@ export function Contact() {
                     <p className="text-sm text-muted-foreground">
                       {social.label === "Email" ? "rooneyalex2016@gmail.com" :
                         social.label === "GitHub" ? "rroon3y" :
-                        social.label === "WhatsApp" ? "0731434141" :
+                        social.label === "WhatsApp" ? "+254731434141" :
                         social.label === "Instagram" ? "_roo.n3yy" :
                         `@yourusername`}
                     </p>
